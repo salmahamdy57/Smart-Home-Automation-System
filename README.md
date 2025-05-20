@@ -65,7 +65,7 @@ This project implements an intelligent home automation system on an ATmega32 mic
 
 - **LCD Driver:** 8‑bit interface (RS, E, Data)
   
-- **LDR Driver:**:
+- **LDR Driver:**
   ```c
   uint16 LDR_getLightIntensity(void);
 
@@ -77,17 +77,17 @@ This project implements an intelligent home automation system on an ATmega32 mic
   void LED_on(LED_ID id);
   void LED_off(LED_ID id);
 
-- **DC Motor Driver:**:
+- **DC Motor Driver:**
   ```c
   void DcMotor_Init(void);
   void DcMotor_Rotate(DcMotor_State state, uint8 speed);
 
-- **Flame Sensor:**:
+- **Flame Sensor:**
   ```c
   void FlameSensor_init(void);
   uint8 FlameSensor_getValue(void);
 
-- **Buzzer Driver:**:
+- **Buzzer Driver:**
   ```c
   void Buzzer_init(void);
   void Buzzer_on(void);
