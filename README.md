@@ -70,7 +70,7 @@ This project implements an intelligent home automation system on an ATmega32 mic
   uint16 LDR_getLightIntensity(void);
 
 - **LM35 Driver:** Course‑provided ADC-based temperature reading
-- 
+  
 - **LED Driver:**:
   ```c
   void LEDS_init(void);
